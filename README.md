@@ -3,7 +3,7 @@ Welcome to the rabbit-mq wiki!
 Download dockaer image rabbit:3.9.29-management-alpine
 
 # STEP 1 Download and Install Docker Dekstop
-# STEP 2 Pull Rabbit MQ Iamge
+# STEP 2 Pull Rabbit MQ Image
 docker pull rabbitmq:3.9.29-management-alpine
 # STEP 3 Run Rabbit MQ Image into container
 docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.9.29-management-alpine
